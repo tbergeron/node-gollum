@@ -1,0 +1,12 @@
+{
+  "name": "node-markdown-server",
+  "version": "0.1.0",
+  "main": "index.js",
+  "dependencies": {
+    "markdown": "~0.4.0",
+    "node-markdown": "~0.1.1",
+    "node-static": "~0.6.0",
+    "routil": "0.0.13"
+  },
+  "devDependencies": {}
+}
