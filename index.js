@@ -23,16 +23,16 @@ var file = new(static.Server)(publicDirectory);
 http.createServer(function(req, res) {
     var fileName = url.parse(req.url).pathname;
 
-    // If no URI specified, serve index.
+    // If no URI specified, serve home.
     if (fileName === '/') {
-        fileName = '/Index.md';
+        fileName = '/Home.md';
     }
 
     // If the request is for a markdown file
     if (path.extname(fileName) === '.md') {
         var filePath = path.join(__dirname, publicDirectory, fileName),
             body = '';
-
+            
         // Checks if URL's md file exists
         fs.exists(filePath, function (exists) {
             if (exists) {
