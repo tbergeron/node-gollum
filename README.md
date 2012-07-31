@@ -19,7 +19,7 @@ Finally use it like this:
 var gollum = require('node-gollum'),
     path = require('path');
 
-var wikiDirectory = path.join(__dirname, 'ThinAir.wiki');
+var wikiDirectory = path.join(__dirname, 'your-project.wiki');
 
 // directory, port
 gollum(wikiDirectory, 3000);
