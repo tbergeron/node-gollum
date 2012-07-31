@@ -11,5 +11,4 @@ This **won't** support editing, that's what [Gollum](https://github.com/github/g
 This module is at the beginning of its development, so please be patient!
 
 ## Left to be done:
-- regex for code snippets (```)
 - support for multiple snippets languages
