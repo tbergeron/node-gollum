@@ -26,4 +26,5 @@ gollum(wikiDirectory, 3000);
 ```
 
 ## Left to be done:
+- HTML header/footer support
 - support for multiple snippets languages
