@@ -16,10 +16,14 @@ Then, clone your project's wiki:
 
 Finally use it like this:
 ```javascript
-var gollum = require('node-gollum');
+var gollum = require('node-gollum'),
+    path = require('path');
 
-gollum('./your-project.wiki', 3000);
-````
+var wikiDirectory = path.join(__dirname, 'ThinAir.wiki');
+
+// directory, port
+gollum(wikiDirectory, 3000);
+```
 
 ## Left to be done:
 - support for multiple snippets languages
