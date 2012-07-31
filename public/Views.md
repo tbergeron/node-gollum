@@ -23,4 +23,4 @@ Hello World!
 
 ***
 
-« [[Validators]] | [Table of contents](https://github.com/tbergeron/ThinAir/wiki) | [[Reactive Methods]] »
+&laquo; [[Validators]] | [[Home]] | [[Reactive Methods]] &raquo;

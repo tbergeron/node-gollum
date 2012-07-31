@@ -77,4 +77,4 @@ Sends a HTML string.
 
 ***
 
-« [[Routes]] | [Table of contents](https://github.com/tbergeron/ThinAir/wiki) | [[Repositories]] »
+&laquo; [[Routes]] | [[Home]] | [[Repositories]] &raquo;

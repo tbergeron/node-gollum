@@ -27,4 +27,4 @@ Returns the action's object once parameters have been processed.
 
 ***
 
-« [[General Overview]] | [Table of contents](https://github.com/tbergeron/ThinAir/wiki) | [[Controllers]] »
+&laquo; [[General Overview]] | [[Home]] | [[Controllers]] &raquo;

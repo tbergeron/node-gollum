@@ -17,4 +17,4 @@ If any errors are found in the wiki, feel free to submit them as an issue, or to
 
 ***
 
-« None | [Table of contents](https://github.com/tbergeron/ThinAir/wiki) | [[General Overview]] »
+&laquo; None | [[Home]] | [[General Overview]] &raquo;

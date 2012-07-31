@@ -68,4 +68,4 @@ This file is a short config file containing settings for application port and mo
 
 ***
 
-« [[Home]] | [Table of contents](https://github.com/tbergeron/ThinAir/wiki) | [[Routes]] »
+&laquo; [[Home]] | [[Home]] | [[Routes]] &raquo;

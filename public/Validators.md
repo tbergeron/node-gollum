@@ -22,4 +22,4 @@ So every time a project gets created or updated, these validations are going to 
 
 ***
 
-« [[Repositories]] | [Table of contents](https://github.com/tbergeron/ThinAir/wiki) | [[Views]] »
+&laquo; [[Repositories]] | [[Home]] | [[Views]] &raquo;

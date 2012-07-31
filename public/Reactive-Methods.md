@@ -69,4 +69,4 @@ For client-side, first you'll need to **(1)** include thinair.js to the page and
 
 ***
 
-« [[Views]] | [Table of contents](https://github.com/tbergeron/ThinAir/wiki) | None »
+&laquo; [[Views]] | [[Home]] | None &raquo;

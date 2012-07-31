@@ -80,4 +80,4 @@ Tries to validate the object before saving (based on [[Validators]]) and then sa
 
 ***
 
-« [[Controllers]] | [Table of contents](https://github.com/tbergeron/ThinAir/wiki) | [[Validators]] »
+&laquo; [[Controllers]] | [[Home]] | [[Validators]] &raquo;
