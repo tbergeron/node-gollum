@@ -6,16 +6,16 @@ var md = require('node-markdown').Markdown,
     path = require('path'),
     url = require('url');
 
-var gollum = function(publicDirectory, port) {
+var gollum = function(wikiDirectory, port) {
     // Checks if public directory exists
-    fs.exists(publicDirectory, function (exists) {
+    fs.exists(wikiDirectory, function (exists) {
         if (!exists) {
             console.error('Public directory does not exist.');
             process.exit(1);
         }
     });
 
-    var file = new(static.Server)(publicDirectory);
+    var file = new(static.Server)(wikiDirectory);
 
     // Starts web server
     http.createServer(function(req, res) {
@@ -27,7 +27,7 @@ var gollum = function(publicDirectory, port) {
         }
 
         // If the request is for a markdown file
-        var filePath = path.join(__dirname, publicDirectory, fileName),
+        var filePath = path.join(wikiDirectory, fileName),
             body = '';
             
         // Checks if URL's md file exists
@@ -59,4 +59,4 @@ var gollum = function(publicDirectory, port) {
     });
 };
 
-gollum('./public', 3000);
+module.exports = gollum;
